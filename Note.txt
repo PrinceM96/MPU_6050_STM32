@@ -1,0 +1,11 @@
+
+.I had used stm32L053C8
+.Here, i had taken  100 samples from mpu 6050,every 10 ms.But i didn't wrote the further code for specific application with the processed data
+.Here i used HAL Libraries with the help of STM CubeMX
+.For sampling the data every 10 milli sec, i here just used only the HAL_Delay function.I had also done it with using timer interrupt
+
+Reasons if the device may not be working with the controller(As given as task2):
+I2C Address of the device may not be correct
+Selected Bus speed may not be suitable for the selected device
+Issues in voltage levels
+bus capacitance and wrong pull ups(only occurs due to manufactural errors)
