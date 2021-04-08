@@ -1,0 +1,25 @@
+--cpu Cortex-M0+
+"mpu_6050\startup_stm32l053xx.o"
+"mpu_6050\main.o"
+"mpu_6050\stm32l0xx_it.o"
+"mpu_6050\stm32l0xx_hal_msp.o"
+"mpu_6050\stm32l0xx_hal_i2c.o"
+"mpu_6050\stm32l0xx_hal_i2c_ex.o"
+"mpu_6050\stm32l0xx_hal.o"
+"mpu_6050\stm32l0xx_hal_rcc.o"
+"mpu_6050\stm32l0xx_hal_rcc_ex.o"
+"mpu_6050\stm32l0xx_hal_flash_ramfunc.o"
+"mpu_6050\stm32l0xx_hal_flash.o"
+"mpu_6050\stm32l0xx_hal_flash_ex.o"
+"mpu_6050\stm32l0xx_hal_gpio.o"
+"mpu_6050\stm32l0xx_hal_dma.o"
+"mpu_6050\stm32l0xx_hal_pwr.o"
+"mpu_6050\stm32l0xx_hal_pwr_ex.o"
+"mpu_6050\stm32l0xx_hal_cortex.o"
+"mpu_6050\stm32l0xx_hal_tim.o"
+"mpu_6050\stm32l0xx_hal_tim_ex.o"
+"mpu_6050\system_stm32l0xx.o"
+--library_type=microlib --strict --scatter "MPU_6050\MPU_6050.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MPU_6050.map" -o MPU_6050\MPU_6050.axf

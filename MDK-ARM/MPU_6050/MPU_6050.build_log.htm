@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: prince mathew, ., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+F:\STM_CUBE\MPU_6050\MDK-ARM\MPU_6050.uvprojx
+Project File Date:  04/06/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MPU_6050'
+assembling startup_stm32l053xx.s...
+compiling stm32l0xx_it.c...
+compiling main.c...
+../Src/main.c(53): warning:  #1295-D: Deprecated declaration mpu6050_init - give arg types
+  void mpu6050_init();
+../Src/main.c(129): warning:  #550-D: variable "accx"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c(129): warning:  #550-D: variable "accy"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c(129): warning:  #550-D: variable "accz"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c(129): warning:  #550-D: variable "gyrox"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c(129): warning:  #550-D: variable "gyroy"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c(129): warning:  #550-D: variable "gyroz"  was set but never used
+     double accx,accy,accz,gyrox,gyroy,gyroz;
+../Src/main.c: 7 warnings, 0 errors
+compiling stm32l0xx_hal_msp.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_tim.c...
+compiling system_stm32l0xx.c...
+linking...
+Program Size: Code=5464 RO-data=252 RW-data=24 ZI-data=1104  
+FromELF: creating hex file...
+"MPU_6050\MPU_6050.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MPU_6050
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:17
+</pre>
+</body>
+</html>
